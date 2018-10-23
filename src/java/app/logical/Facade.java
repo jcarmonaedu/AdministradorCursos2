@@ -17,13 +17,13 @@ public class Facade
 
 	public List<CursoDTO> obtenerCursos()
 	{
-		CursoDTO dao=new CursoDTO();
+		CursoDAO dao=new CursoDAO();
 		return dao.getCursos();
 	}
 
 	public List<FormaPagoDTO> obtenerFormasPago()
 	{
-		FormaPagoDTO dao=new FormaPagoDTO();
+		FormaPagoDAO dao=new FormaPagoDAO();
 		return dao.getFormasPago();
 	}
 }
